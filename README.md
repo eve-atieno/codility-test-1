@@ -2,7 +2,7 @@
 ## Steps
 1. start by calculating the difference between (a and b)
 2. then create an array that compares the two strings
-3. then use string  interpolation which will create the string
+3. use string  interpolation which will create the string
 4. add a return value
 
 # Challenge 2
