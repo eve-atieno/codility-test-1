@@ -7,6 +7,6 @@ const compareResult = (a-b) / maths.abs(a-b);
 const compareStrings = ["equal to", "greater than", "less than"];
 const finalString = `${a} is ${compareStrings[compareResult +1]} ${b}`;
 
-//this line of code removes negative numbers(0) from the string
+// remove negative numbers(0) from the string
 return finalString.replace(/^(-)?0/,"$1");
 }
