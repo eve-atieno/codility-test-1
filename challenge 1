@@ -1,0 +1,12 @@
+// start by calculating the difference between (a and b)
+// then create an array that compares the two strings
+//then use string  interpolation which will create the string
+// we the add a return value
+function compareNumbers(a,b){
+const compareResult = (a-b) / maths.abs(a-b);
+const compareStrings = ["equal to", "greater than", "less than"];
+const finalString = `${a} is ${compareStrings[compareResult +1]} ${b}`;
+
+//this line of code removes negative numbers(0) from the string
+return finalString.replace(/^(-)?0/,"$1");
+}

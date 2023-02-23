@@ -1,0 +1,15 @@
+// creating an empty object that will keep track of the counts for each character
+// use forloop to iterate through each character in the input string
+//then initialize the count to 1 if the character has not been used
+//else if the character has been used it will return an array of counts
+
+function orderedCount(input){
+    let counts = {};
+    for (let char of input){
+        counts[char] = (counts[char] || 0)+ 1;
+    }
+   //creates an array according to the order of how they appear
+    return Object.keys(counts).map(char=>[char,counts[char]]);
+
+}
+
